@@ -1,0 +1,5 @@
+#! /usr/bin/bash
+# SELECTED=$(xclip -o)
+SELECTED=$(wl-paste -p)
+TRANS=$(trans -b en:ru "${SELECTED}")
+notify-send "Перевод:" "${TRANS}"

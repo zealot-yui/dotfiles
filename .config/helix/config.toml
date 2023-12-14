@@ -1,0 +1,10 @@
+theme = "molokai"
+
+[editor]
+line-number = "relative"
+auto-completion = true
+bufferline = "multiple"
+
+[editor.statusline]
+left = ["mode", "spinner", "file-type", "file-name", "diagnostics"]
+right = ["diagnostics", "selections", "position","total-line-numbers", "file-encoding"]

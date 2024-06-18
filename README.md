@@ -1,7 +1,14 @@
-# Настройка новой системы.
-SCALE:        way-displays (swaymsg -t get_outputs)
+<div align="center">
+  <p><h1>Настройка новой системы.</h1> </p>
+  <p></p>
+</div>
+
+SCALE:        way-displays (swaymsg -t get_outputs).
+
 resolv.conf:  настроить DNS в NetworkManager 8.8.8.8 и 8.8.4.4
+
 helix:        https://github.com/estin/simple-completion-language-server
+
 yazi:         https://yazi-rs.github.io/docs/configuration/overview
 
 
